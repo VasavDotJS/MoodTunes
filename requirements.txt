@@ -1,3 +1,4 @@
 1. Python 3.9 or greater
 2. Streamlit
 3. TextBlob
+4. ntlk
