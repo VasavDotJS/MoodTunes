@@ -1,7 +1,13 @@
 import streamlit as st 
 from textblob import TextBlob 
 import urllib.parse
+import nltk
 
+try:
+    nltk.data.find('corpora/brown.zip')
+except LookupError:
+    nltk.download('brown', quiet=True)
+    nltk.download('punkt', quiet=True)
 def detect_mood(text):
     polarity = TextBlob(text).sentiment.polarity
     
