@@ -22,7 +22,7 @@ A beautiful dark-themed app that recommends music genres based on your current m
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/moodtune.git
+git clone https://github.com/VasavDotJS/MoodTunes.git
 cd moodtune
 ```
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 3. Run the app:
 ```bash
-streamlit run music_recommender_dark.py
+streamlit run app.py
 ```
 
 ## Deployment
